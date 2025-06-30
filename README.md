@@ -4,12 +4,6 @@ A cozy, home-style restaurant website built entirely with JavaScript and Webpack
 
 ---
 
-## 📸 Preview
-
-![Mamma's Table Preview](./screenshot.jpg) <!-- Optional screenshot if you have one -->
-
----
-
 ## 🔧 Features
 
 - 🏡 **Home tab** with a warm welcome, tagline, opening hours, and today’s special
@@ -28,15 +22,4 @@ A cozy, home-style restaurant website built entirely with JavaScript and Webpack
 - **HTML5** & **CSS3**
 - **npm** for dependency management
 
----
 
-
----
-
-## 🚀 Getting Started
-
-### 1. Install dependencies
-
-```bash
-npm install
-npx webpack serve
