@@ -22,4 +22,9 @@ A cozy, home-style restaurant website built entirely with JavaScript and Webpack
 - **HTML5** & **CSS3**
 - **npm** for dependency management
 
+---
+
+## 🚀 Getting Started
+
+Switch to gh-pages Branch to view the code
 
