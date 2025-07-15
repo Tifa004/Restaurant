@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&display=swap');
+
+:root {
+  --soft-beige: #f6f1eb;
+  --warm-brown: #7a574d;
+  --butter-yellow: #fff2cc;
+  --gentle-pink: #fce8e6;
+  --mamma-rose: #d88c9a;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--soft-beige);
+  color: var(--warm-brown);
+}
+
+header {
+  background-color: var(--mamma-rose);
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--warm-brown);
+  padding: 0.75rem;
+}
+
+nav button {
+  background-color: var(--butter-yellow);
+  color: var(--warm-brown);
+  border: 1px solid var(--warm-brown);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Courgette', cursive;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+nav button:hover {
+  background-color: var(--gentle-pink);
+  transform: scale(1.05);
+}
+
+#content {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: white url('https://www.transparenttextures.com/patterns/linen.png');
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-family: 'Courgette', cursive;
+  font-size: 2.2rem;
+  text-align: center;
+  color: var(--mamma-rose);
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: var(--gentle-pink);
+  border-left: 5px solid var(--mamma-rose);
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  font-family: 'Open Sans', sans-serif;
+} 
+
+.special-img {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  display: block;
+  margin: 1.2rem auto 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.special-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card li svg {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: bottom;
+  margin-left: 0.4em;
+  fill: #b35e67; 
+  transition: transform 0.3s ease;
+}
+
+.card li svg:hover {
+  transform: scale(1.2);
+}
+
+.tagline {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #5c2e2e;
+  background-color: #fff9f3;
+  padding: 0.75rem 1.25rem;
+  margin: 1.5rem auto;
+  border-radius: 12px;
+  width: fit-content;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.06);
+  border: 2px dashed #e5c3b2;
+  text-align: center;
+  max-width: 80%;
+}
+
+.dish-img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dish-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #b34747;
+  background-color: #fff1f0;
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card p {
+  margin: 0.5rem 0;
+}
+
+.card h3 {
+  margin-top: 1.2rem;
+  color: #b34747;
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
